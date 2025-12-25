@@ -8,11 +8,12 @@
   <meta name="keywords" content="">
 
   <title>{{ .Title }}</title>
-  <!-- Styles -->
-  <link href="{{$.Site.BaseURL}}/css/page.min.css" rel="stylesheet">
-  <link href="{{$.Site.BaseURL}}/css/style.css" rel="stylesheet">
+  <!-- Styles --> {{ with $myBase := absURL "" }}
+  <link href="{{ $myBase }}/css/page.min.css" rel="stylesheet">
+  <link href="{{ $myBase }}/css/style.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/gh/rastikerdar/sahel-font@v3.4.0/dist/font-face.css" rel="stylesheet"
     type="text/css" />
+     {{ end }}
   <!-- Favicons -->
 
 
