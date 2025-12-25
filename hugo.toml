@@ -1,4 +1,4 @@
-baseURL = ""
+baseURL = "/ibook/"
 languageCode = 'fa'
 title = 'کتابفروشی قلم من'
 contentdir          = "content"
