@@ -1,6 +1,11 @@
 baseURL = 'https://javadsajjadi.github.io/ibook/'
 languageCode = 'fa'
 title = 'کتابفروشی قلم من'
+contentdir          = "content"
+layoutdir           = "layouts"
+publishDir          = "docs"
+author              = "Qezwan"
+title               = "Qezwan"
 
 
 [pagination]
