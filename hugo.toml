@@ -1,4 +1,4 @@
-baseURL = 'https://javadsajjadi.github.io/ibook/'
+baseURL = '//javadsajjadi.github.io/ibook/'
 languageCode = 'fa'
 title = 'کتابفروشی قلم من'
 contentdir          = "content"
